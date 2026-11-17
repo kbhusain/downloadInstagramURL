@@ -184,4 +184,4 @@ def download():
         return jsonify({'error': 'Could not extract video. Ensure the post is public and contains a video.'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=False, port=5000)
